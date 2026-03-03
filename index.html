@@ -2,24 +2,53 @@
 <html>
 <head>
   <title>My First Website</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin-top: 100px;
-      background-color: #f4f4f4;
-    }
-    h1 {
-      color: #333;
-    }
-    p {
-      color: #666;
-    }
-  </style>
+ <style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  .links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .links a:hover {
+    opacity: 0.6;
+  }
+</style>
 </head>
-<body>
-  <h1>Hello, world 👋</h1>
-  <p>This is my first website.</p>
-  <p>Built with GitHub Pages.</p>
+ <body>
+  <div class="container">
+    <h1>Bronwyn Wu</h1>
+    <p>Building systems, exploring structure, learning the web.</p>
+    
+    <div class="links">
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Notes</a>
+    </div>
+  </div>
 </body>
 </html>
