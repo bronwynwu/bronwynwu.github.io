@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<html>
 <head>
   <title>My First Website</title>
- <style>
+
+  <style>
+
   body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -27,28 +27,28 @@
     margin-bottom: 30px;
   }
 
+  .links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
   .links a {
-    margin: 0 15px;
+    padding: 15px 25px;
+    border: 1px solid black;
+    border-radius: 8px;
     text-decoration: none;
     color: black;
     font-weight: bold;
+    transition: 0.2s;
   }
 
   .links a:hover {
-    opacity: 0.6;
+    background: black;
+    color: white;
   }
-</style>
+
+  </style>
+
 </head>
- <body>
-  <div class="container">
-    <h1>Bronwyn Wu</h1>
-    <p>Building systems, exploring structure, learning the web.</p>
-    
-    <div class="links">
-      <a href="about.html">About</a>
-      <a href="#">Projects</a>
-      <a href="#">Notes</a>
-    </div>
-  </div>
-</body>
-</html>
